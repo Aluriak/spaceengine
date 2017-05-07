@@ -1,0 +1,13 @@
+# Space Engine
+Python package to interface with Space Engine addons content.
+
+
+## Usage
+
+    from spaceengine import SpaceEngine, Planet
+
+    spen = SpaceEngine('/path/to/space/engine/install/folder')
+
+    for star in spen.addons_stars:
+        print('Add a planet to ', star.name)
+        spen.add(Planet.randomly_built(parent=star.name))
