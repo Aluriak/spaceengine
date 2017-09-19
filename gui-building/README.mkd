@@ -1,0 +1,21 @@
+# GUI building for Space Engine
+This directory is basically a GUI generator,
+based on the data provided in `splash/` and `menu/`.
+
+See [this thread](http://forum.spaceengine.org/viewtopic.php?f=3&t=319&p=13647) for an example of gui structure.
+
+
+## Makefile
+Create the final output directory, by creating the whole structure
+and placing the files at the expected places.
+
+## build-gui.py
+Python program that generate the `*-menu.png` images, where various texts must be
+well placed.
+
+## locales.json
+Mapping giving for an english word its translation into another language.
+Used by `build-gui.py` to generate all possible menu pages.
+
+## examples/
+Some generalist data and helpers.

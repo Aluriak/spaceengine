@@ -1,0 +1,3 @@
+Examples of data that can be used to generate a GUI.
+
+- `eng-menu.xcf`: GIMP images where fields of eng-menu are editables. Currently set with Gill Sans Light font (used in *2001 a space odyssey*).
