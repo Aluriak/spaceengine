@@ -1,0 +1,280 @@
+Remove "UID42/Kalgash system"
+Star    "UID42/Kalgash"
+{
+    ParentBody "UID42/Kalgash system"
+    Class      "X"
+    MassSol    2000
+    NoPlanets  True
+}
+{Orbit(parent='black_hole', orbiter='earth', semimajoraxis=2.5, eccentricity=1, inclination=0, angle=0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=1, eccentricity=1, inclination=0, angle=0.0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=1, eccentricity=1, inclination=0, angle=45.0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=1, eccentricity=1, inclination=0, angle=90.0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=1, eccentricity=1, inclination=0, angle=135.0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=1, eccentricity=1, inclination=0, angle=180.0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=1, eccentricity=1, inclination=0, angle=225.0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=1, eccentricity=1, inclination=0, angle=270.0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=1, eccentricity=1, inclination=0, angle=315.0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=5, eccentricity=1, inclination=0, angle=0.0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=5, eccentricity=1, inclination=0, angle=45.0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=5, eccentricity=1, inclination=0, angle=90.0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=5, eccentricity=1, inclination=0, angle=135.0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=5, eccentricity=1, inclination=0, angle=180.0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=5, eccentricity=1, inclination=0, angle=225.0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=5, eccentricity=1, inclination=0, angle=270.0, isretrograde=False),
+ Orbit(parent='black_hole', orbiter='sun', semimajoraxis=5, eccentricity=1, inclination=0, angle=315.0, isretrograde=False)}
+Star    "UID42/Kalgash/1"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   5
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     45.0
+    }
+}
+Star    "UID42/Kalgash/2"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   5
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     315.0
+    }
+}
+Star    "UID42/Kalgash/3"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   5
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     90.0
+    }
+}
+Star    "UID42/Kalgash/4"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   1
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     45.0
+    }
+}
+Star    "UID42/Kalgash/5"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   1
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     180.0
+    }
+}
+Star    "UID42/Kalgash/6"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   1
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     315.0
+    }
+}
+Star    "UID42/Kalgash/7"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   5
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     135.0
+    }
+}
+Star    "UID42/Kalgash/8"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   1
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     90.0
+    }
+}
+Star    "UID42/Kalgash/9"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   1
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     225.0
+    }
+}
+Star    "UID42/Kalgash/10"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   5
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     180.0
+    }
+}
+Star    "UID42/Kalgash/11"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   2.5
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     0
+    }
+}
+Star    "UID42/Kalgash/12"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   5
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     225.0
+    }
+}
+Star    "UID42/Kalgash/13"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   5
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     270.0
+    }
+}
+Star    "UID42/Kalgash/14"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   1
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     0.0
+    }
+}
+Star    "UID42/Kalgash/15"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   1
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     135.0
+    }
+}
+Star    "UID42/Kalgash/16"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   1
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     270.0
+    }
+}
+Star    "UID42/Kalgash/17"
+{
+    ParentBody "UID42/Kalgash"
+    Class      "G5V"
+    MassSol    1.0
+    NoPlanets  True
+    Orbit
+    {
+        RefPlane        "Equator"
+        SemiMajorAxis   5
+        Eccentricity    1
+        Inclination     0
+        MeanAnomaly     0.0
+    }
+}

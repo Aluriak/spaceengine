@@ -1,0 +1,26 @@
+{
+    "name": "Kalgash",
+    "UID": "UID42",
+    "type": "black hole",
+    "childs": [
+	{
+	    "type": ["ring", 8, "sun"],
+	    "retrograde": true,
+	    "distance": 1,
+            "childof": {
+                "1": {
+                    "type": "earth",
+                    "distance": 0.2
+                }
+            }
+	},
+	{
+	    "type": "earth",
+	    "distance": 2.5
+	},
+	{
+	    "type": ["ring", 8, "sun"],
+	    "distance": 5
+	}
+    ]
+}
